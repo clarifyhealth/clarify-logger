@@ -1,0 +1,24 @@
+{
+  "name": "clarify-logger",
+  "version": "1.0.9",
+  "description": "common logging module",
+  "main": "logger.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "app-root-path": "^1.0.0",
+    "config": "^1.19.0",
+    "moment": "^2.18.1",
+    "winston": "^2.1.1",
+    "winston-graylog2": "^0.3.1"
+  },
+  "devDependencies": {
+    "bluebird": "^3.2.1",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  }
+}
