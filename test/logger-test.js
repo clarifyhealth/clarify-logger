@@ -40,11 +40,11 @@ describe('clarify-logger', function () {
     setTimeout(function () {
       expect(logSpy.calledOnce).to.be.true;
       expect(logSpy.getCall(0).args[3]).to.be.an('object');
-      expect(logSpy.getCall(0).args[3]).to.have.property('env');
-      expect(logSpy.getCall(0).args[3].env).to.equal('development');
-      expect(logSpy.getCall(0).args[3]).to.have.property('pid');
-      expect(logSpy.getCall(0).args[3].pid).to.be.an('number');
-      expect(logSpy.getCall(0).args[3]).to.have.property('memory');
+      // expect(logSpy.getCall(0).args[3]).to.have.property('env');
+      // expect(logSpy.getCall(0).args[3].env).to.equal('development');
+      // expect(logSpy.getCall(0).args[3]).to.have.property('pid');
+      // expect(logSpy.getCall(0).args[3].pid).to.be.an('number');
+      // expect(logSpy.getCall(0).args[3]).to.have.property('memory');
       done();
     }, waitTime);
   });
@@ -71,11 +71,11 @@ describe('clarify-logger', function () {
     setTimeout(function () {
       expect(logSpy.calledOnce).to.be.true;
       expect(logSpy.getCall(0).args[3]).to.be.an('object');
-      expect(logSpy.getCall(0).args[3]).to.have.property('env');
-      expect(logSpy.getCall(0).args[3].env).to.equal('development');
-      expect(logSpy.getCall(0).args[3]).to.have.property('pid');
-      expect(logSpy.getCall(0).args[3].pid).to.be.an('number');
-      expect(logSpy.getCall(0).args[3]).to.have.property('memory');
+      // expect(logSpy.getCall(0).args[3]).to.have.property('env');
+      // expect(logSpy.getCall(0).args[3].env).to.equal('development');
+      // expect(logSpy.getCall(0).args[3]).to.have.property('pid');
+      // expect(logSpy.getCall(0).args[3].pid).to.be.an('number');
+      // expect(logSpy.getCall(0).args[3]).to.have.property('memory');
 
       expect(logSpy.getCall(0).args[3]).to.have.property(
         'providerId');
