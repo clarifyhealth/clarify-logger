@@ -11,7 +11,7 @@
   "dependencies": {
     "app-root-path": "^1.0.0",
     "config": "^1.19.0",
-    "lodash": ">=4.17.19",
+    "lodash": ">=4.17.21",
     "moment": "^2.18.1",
     "winston": "^2.1.1",
     "winston-graylog2": "^0.3.1"
