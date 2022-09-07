@@ -16,7 +16,7 @@ describe('clarify-logger', function () {
 
   beforeEach(function (done) {
     fs.unlinkAsync(logFile).catch(function () {}).then(done);
-    sinonSandbox = sinon.sandbox.create();
+    sinonSandbox = sinon.fakeServer.create();
     logSpy = sinon.spy();
   });
 
